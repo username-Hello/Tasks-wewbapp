@@ -5,8 +5,7 @@ export class Task {
     public dueDate: string;
 
 
-    constructor(id: number, name: String, completed: boolean, dueDate: string) {
-        this.id = id;
+    constructor(name: String, completed: boolean, dueDate: string) {
         this.name = name;
         this.completed = completed;
         this.dueDate = dueDate;
